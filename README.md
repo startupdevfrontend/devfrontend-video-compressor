@@ -1,80 +1,99 @@
-# Ethan Video Compressor
+# DevFrontend Video Compressor
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Windows-11-blue">
-  <img src="https://img.shields.io/badge/FFmpeg-Latest-green">
-  <img src="https://img.shields.io/badge/License-MIT-yellow">
-</p>
+Compressão inteligente de vídeos para Windows utilizando FFmpeg com interface interativa. Reduza o tamanho dos seus vídeos em até 80% mantendo excelente qualidade para WhatsApp, Instagram, YouTube, armazenamento e backup.
 
-## Sobre o Projeto
+---
 
-O Ethan Video Compressor é uma ferramenta para Windows desenvolvida para simplificar a compressão de vídeos utilizando FFmpeg.
+## Visão Geral
 
-Com poucos cliques é possível reduzir drasticamente o tamanho dos arquivos mantendo excelente qualidade visual.
+O DevFrontend Video Compressor foi criado para simplificar a compressão de vídeos em ambientes Windows.
 
-Ideal para:
+A ferramenta utiliza o poder do FFmpeg para processar arquivos de vídeo com alta eficiência, permitindo reduzir significativamente o tamanho dos arquivos sem comprometer a qualidade visual.
+
+Ideal para criadores de conteúdo, profissionais de marketing, desenvolvedores, editores de vídeo, empresas e usuários que precisam economizar espaço em disco ou compartilhar vídeos com mais facilidade.
+
+---
+
+## Principais Benefícios
+
+- Redução de até 80% no tamanho dos vídeos
+- Compressão utilizando H.264 e H.265 (HEVC)
+- Compatível com Windows 10 e Windows 11
+- Interface simples através de Batch Script
+- Processamento rápido e automatizado
+- Processamento individual ou em lote
+- Ideal para armazenamento e backup
+- Compatível com WhatsApp, Instagram, TikTok e YouTube
+- Não requer conhecimentos avançados
+
+---
+
+## Casos de Uso
+
+### Redes Sociais
+
+- Instagram Reels
+- Instagram Feed
+- Stories
+- TikTok
+- Facebook
+- LinkedIn
+
+### Mensageiros
 
 - WhatsApp
-- Instagram
-- YouTube
-- TikTok
-- Armazenamento Local
-- Backup
-- Compartilhamento em nuvem
+- Telegram
+- Discord
+
+### Armazenamento
+
+- SSD
+- HD
+- NAS
+- OneDrive
+- Google Drive
+- Dropbox
+
+### Ambientes Corporativos
+
+- Compartilhamento de arquivos
+- Backup de vídeos
+- Arquivamento digital
+- Documentação audiovisual
 
 ---
 
-## Recursos
-
-✅ Compressão H.265
-
-✅ Compressão H.264
-
-✅ Interface simples em Batch Script
-
-✅ Processamento em lote
-
-✅ Compatível com Windows 10
-
-✅ Compatível com Windows 11
-
-✅ Redução de até 80%
-
-✅ Preservação de qualidade
-
-✅ Utilização simples
-
----
-
-## Comparação
+## Comparativo
 
 | Original | Compactado |
 |-----------|-----------|
-| 1 GB | 250 MB |
 | 500 MB | 120 MB |
+| 1 GB | 250 MB |
 | 2 GB | 450 MB |
-| 5 GB | 1 GB |
+| 5 GB | 1,2 GB |
 
-Os valores podem variar dependendo do vídeo.
+Os resultados podem variar conforme resolução, bitrate, codec original e conteúdo do vídeo.
 
 ---
 
 ## Requisitos
 
-### Windows
+### Sistema Operacional
 
 - Windows 10
 - Windows 11
 
-### FFmpeg
+### Dependências
 
-Instale utilizando:
+FFmpeg
+
+Instalação:
 
 ```cmd
 winget install Gyan.FFmpeg
 ```
 
-Verifique:
+Verificação:
 
 ```cmd
 ffmpeg -version
@@ -87,13 +106,13 @@ ffmpeg -version
 Clone o repositório:
 
 ```bash
-git clone https://github.com/startupdevfrontend/ethan-video-compressor.git
+git clone https://github.com/SEU-USUARIO/devfrontend-video-compressor.git
 ```
 
-Entre na pasta:
+Acesse a pasta:
 
 ```bash
-cd ethan-video-compressor
+cd devfrontend-video-compressor
 ```
 
 Execute:
@@ -104,62 +123,11 @@ DevFrontend-Video-Compressor.bat
 
 ---
 
-## Modos Disponíveis
-
-### Alta Qualidade
-
-Maior qualidade visual.
-
-Ideal para:
-
-- YouTube
-- Arquivamento
-
----
-
-### Balanceado
-
-Equilíbrio entre qualidade e tamanho.
-
-Ideal para:
-
-- Uso geral
-
----
-
-### Alta Compressão
-
-Menor tamanho possível.
-
-Ideal para:
-
-- Compartilhamento rápido
-
----
-
-### WhatsApp
-
-Compressão otimizada para envio via WhatsApp.
-
----
-
-### Instagram
-
-Compressão otimizada para Reels e Feed.
-
----
-
-### Processamento em Lote
-
-Processa todos os vídeos da pasta automaticamente.
-
----
-
-## Fluxo de Utilização
+## Como Utilizar
 
 ### Passo 1
 
-Instale o FFmpeg
+Instale o FFmpeg:
 
 ```cmd
 winget install Gyan.FFmpeg
@@ -167,7 +135,7 @@ winget install Gyan.FFmpeg
 
 ### Passo 2
 
-Execute o script
+Execute:
 
 ```cmd
 DevFrontend-Video-Compressor.bat
@@ -175,37 +143,104 @@ DevFrontend-Video-Compressor.bat
 
 ### Passo 3
 
-Escolha o perfil desejado
+Escolha um dos modos disponíveis:
 
 ```text
 [1] Alta Qualidade
+
 [2] Balanceado
+
 [3] Alta Compressão
+
 [4] WhatsApp
+
 [5] Instagram
-[6] Processar em lote
+
+[6] Processar em Lote
 ```
 
 ### Passo 4
 
-Arraste o vídeo para a janela do CMD
+Arraste o vídeo para a janela do Prompt de Comando.
 
 ### Passo 5
 
-Pressione ENTER
+Pressione ENTER.
 
 ### Passo 6
 
-Aguarde a compressão
+Aguarde o processamento.
+
+### Passo 7
+
+O vídeo compactado será salvo automaticamente na mesma pasta do arquivo original.
+
+---
+
+## Modos de Compressão
+
+### Alta Qualidade
+
+Indicado para:
+
+- YouTube
+- Arquivamento
+- Conteúdo profissional
+
+Prioriza qualidade visual.
+
+---
+
+### Balanceado
+
+Indicado para:
+
+- Uso geral
+- Compartilhamento
+- Armazenamento
+
+Equilíbrio entre qualidade e tamanho.
+
+---
+
+### Alta Compressão
+
+Indicado para:
+
+- Economia máxima de espaço
+- Compartilhamento rápido
+- Uploads limitados
+
+Prioriza tamanho reduzido.
+
+---
+
+### WhatsApp
+
+Perfil otimizado para compartilhamento via WhatsApp.
+
+---
+
+### Instagram
+
+Perfil otimizado para Reels, Stories e Feed.
+
+---
+
+### Processamento em Lote
+
+Compacta automaticamente todos os arquivos de vídeo encontrados na pasta.
+
+Ideal para grandes volumes de conteúdo.
 
 ---
 
 ## Tecnologias Utilizadas
 
-- Windows Batch
+- Windows Batch Script
 - FFmpeg
 - H.264
-- H.265
+- H.265 (HEVC)
 - CMD
 
 ---
@@ -213,7 +248,7 @@ Aguarde a compressão
 ## Estrutura do Projeto
 
 ```text
-ethan-video-compressor/
+devfrontend-video-compressor/
 │
 ├── DevFrontend-Video-Compressor.bat
 ├── README.md
@@ -236,55 +271,70 @@ ethan-video-compressor/
 
 ## Roadmap
 
-### Versão 1.0
+### Versão Atual
 
-- Compressão H.265
 - Compressão H.264
+- Compressão H.265
 - Processamento em lote
+- Perfis pré-configurados
+- Compatibilidade com Windows
 
-### Versão 2.0
+### Próximas Versões
 
-- Interface gráfica
-- Barra de progresso avançada
+- Interface gráfica moderna
 - Compressão por GPU NVIDIA
 - Compressão por GPU AMD
 - Compressão por Intel Quick Sync
-
-### Versão 3.0
-
-- Instalador automático
+- Relatórios de processamento
+- Histórico de compressões
+- Perfis personalizados
 - Atualizações automáticas
-- Exportação para YouTube
-- Exportação para TikTok
+- Integração com armazenamento em nuvem
+- Licenciamento por assinatura
 
 ---
 
-## Autor
+## Licenciamento
 
-ETHAN
+Este software é propriedade da DevFrontend.
+
+Todos os direitos reservados.
+
+A utilização, distribuição, modificação, comercialização ou redistribuição deste software sem autorização expressa do autor é proibida.
+
+---
+
+## Versão Comercial
+
+Uma versão profissional está em desenvolvimento com recursos avançados para usuários e empresas que necessitam de maior produtividade e automação.
+
+Recursos planejados:
+
+- Interface gráfica premium
+- Compressão acelerada por GPU
+- Processamento avançado em lote
+- Estatísticas detalhadas
+- Gerenciamento de perfis
+- Atualizações automáticas
+- Suporte prioritário
+- Recursos exclusivos para assinantes
+
+---
+
+## Suporte
+
+Em breve serão disponibilizados canais oficiais de suporte e documentação.
+
+---
+
+## Desenvolvido por
+
+DevFrontend
 
 Software Engineer
 
-Foco • Disciplina • Propósito
+Transformando ideias em soluções tecnológicas.
 
 ---
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT.
-
----
-
-## Apoie o Projeto
-
-Se este projeto foi útil para você:
-
-⭐ Deixe uma estrela no GitHub
-
-⭐ Compartilhe com outros profissionais
-
-⭐ Contribua com melhorias
-
----
-
-Desenvolvido por ETHAN
+© DevFrontend. Todos os direitos reservados.
